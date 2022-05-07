@@ -14,7 +14,6 @@
 --secondary-background: #f5f4fa;
 --footer-background: #2f303a;
 --accent-backgrounde: #2196f3;
-
 }
 
 /* celector- class for all ОСПК */
@@ -33,8 +32,8 @@ body {
     /* heder */
 
 .header-page{
-    width: 1600;
-    margin: 0 auto;
+    /* width: 1600;
+    margin: 0 auto; */
     background-color:  #FFFFFF;
     color: var(--title-text-color);
     text-align: left;
@@ -62,21 +61,21 @@ body {
 }   
 
 .list{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; */
     /* padding: 32px 853px 32px 453px; */
     } 
 /* ссылки шапки сайта */
 .list{
 /* background-color: #212121; */
-Width: 294px;
+/* Width: 294px;
 Height: 16pxl;
 Top: 32px;
 Left: 453px;
 list-style-type: none;
 display: inline-flex;
-flex-direction: row;
+flex-direction: row; */
 }
 
 
@@ -147,10 +146,7 @@ flex-direction: row;
 
 /* main */
 .main{
-    width: 1170px;
-    margin: 0 auto;
     
-      
 }
 
 /* main-section-button-list */
@@ -230,9 +226,7 @@ flex-direction: row;
 
 .button-hero:hover,
 .button-hero:focus {
-    background-color: #188CE8;
-
-}
+    background-color: #188CE8;}
 
     
 
@@ -256,13 +250,6 @@ align-items:stretch;
 justify-content:center;
 align-items:stretch;
 align-content:center; */ }
-
-.divsection-img-list{
-     display: inline-flex;
-    flex-direction: row;
-
-
-}
 
 .section-item-img{
     font-weight: 370px;
@@ -425,4 +412,77 @@ align-content:center; */ }
     color: #FFFFFF;
 }
 
- 
+/* ================
+РАЗМЕТКА ДЗ №3
+==================*/
+html {
+    box-sizing: border-box;}
+
+*,
+*::before,
+*::after {
+box-sizing:inherit;}
+
+h1,
+h2,
+h3,
+h4,
+p {margin: 0;}
+
+img {display:block;}
+
+
+
+.img {
+
+}
+
+.header-container {
+    outline: 1px solid #ff0000;
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    display:flex;
+}
+
+.list {
+    width: 294px;
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 852px 32px 453px;
+    border: 1px solid;
+    padding-left: 0% auto;
+    
+}
+
+
+
+.item {
+  
+    
+}
+
+.navigation { 
+    display: flex;
+    /* align-items:center; */
+}
+
+
+
+.logo-title-right {
+    
+}
+
+ul {
+    /* margin: 0;
+    padding: 0; */
+}
+
+.header-container {
+   
+}
